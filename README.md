@@ -72,8 +72,3 @@ make
 
 Supervised by **Prof. Giorgio Buttazzo**  
 University of Pisa
-
-## 📜 License
-
-This project was developed for academic and educational purposes. Please contact the authors for reuse or collaboration.
-
