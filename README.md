@@ -44,5 +44,36 @@ The project explores the intersection of control theory, dynamics, and concurren
 make
 ./crawling_robot
 ```
-### Controls 
-Todo
+## 🎮 Controls
+
+- `←` `→`: Switch selected parameter
+- `↑` `↓`: Increase/decrease parameter value
+- `S`: Start learning
+- `R`: Reset
+- `E`: Exit
+- `P`: Pause/Resume
+- `F`: Save Q-matrix
+- `L`: Load Q-matrix
+- `B`: Enable/Disable graphics
+
+## 📈 Project Structure
+
+- `ptask.c/h`: Task abstraction layer for real-time scheduling
+- `dynamics.c`: Implements robot dynamics and control
+- `qlearn.c`: Q-learning agent logic
+- `graphic.c`: Allegro-based rendering
+- `interpreter.c`: Handles user input and system state
+
+## 👨‍🔬 Authors
+
+- [@ngazzanelli](https://github.com/ngazzanelli) – Niccolò Gazzanelli  
+- [@Cionix90](https://github.com/Cionix90) - Jacopo Cioni  
+- [@AlbertoNobili](https://github.com/AlbertoNobili) - Alberto Maria Nobili
+
+Supervised by **Prof. Giorgio Buttazzo**  
+University of Pisa
+
+## 📜 License
+
+This project was developed for academic and educational purposes. Please contact the authors for reuse or collaboration.
+
